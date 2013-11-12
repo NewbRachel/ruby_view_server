@@ -1,8 +1,4 @@
-<% 
-  def link_to(name, url)
-    return "<a href = '#{url}'>#{name}</a>"
-  end
-%>
+
 
 <html>
   <body>
@@ -15,13 +11,23 @@
     </p>
     <hr />
     <div>
-      <%= yield %>
+      <h1>Rachel's home</h1>
+<ul>
+	
+	
+		<li>I like to eat apples</li>
+	
+		<li>I like to eat oranges</li>
+	
+		<li>I like to eat 3</li>
+	
+</ul>
     </div>
     <hr />
     <div>
       <h3>Built by: Rachel Loziuk</h3>
       <p>2013</p>
-      <%= link_to('Google', 'http://google.com') %>
+      <a href = 'http://google.com'>Google</a>
     </div>
   </body>
 </html>
